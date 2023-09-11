@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using SocialApp_Comments.Data;
+using MicroService_Comments.Data;
 
 #nullable disable
 
-namespace SocialApp_Comments.Migrations
+namespace MicroService_Comments.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     [Migration("20230910145349_Comments")]

@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using SocialApp_Posts.Data;
+using MicroService_Posts.Data;
 
 #nullable disable
 
-namespace SocialApp_Posts.Migrations
+namespace MicroService_Posts.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     [Migration("20230910132555_PostsTable")]
